@@ -1,0 +1,108 @@
+---
+import Layout from "../layouts/Layout.astro";
+// import Card from "../components/Card.astro";
+// import Location from "../components/Location.astro";
+// import Recipe from "../components/Recipe.astro";
+// import Puzzle from "../components/Puzzle.astro";
+// import Book from "../components/Book.astro";
+// import Sport from "../components/Sport.astro";
+// import Health from "../components/Health.astro";
+import DynamicIcon from "../components/DynamicIcon.astro";
+
+import List from "../layouts/List.astro";
+import Button from "../components/Button.astro";
+import Arrow from "../components/Arrow.astro";
+---
+
+<Layout title="פעילות יום שעות ארוך">
+  <main>
+<div class="mb-4">פעילויות ערים.</div>
+    <div class="mb-4">הקליקו על קטגוריה כדי לצפות בפעילויות:</div>
+    <div
+      role="list"
+      class="flex justify-center flex-wrap md:w-[700px] w-full mx-auto">
+
+      <DynamicIcon
+      href="https://amiagudatsite.github.io/activities/cities/eilat-city.pdf"
+      title="אילת - מידע על העיר"
+      subtitle=""
+      externalLink={true}
+      className="border-b-purple-400"
+      icon="icons/health.ico"
+      />
+
+      <DynamicIcon
+      href="https://amiagudatsite.github.io/activities/cities/eilat-pictures.pdf"
+      title="אילת - תמונות"
+      subtitle=""
+      externalLink={false}
+      className="border-b-orange-400"
+      icon="icons/cities.ico"
+      />
+
+      <DynamicIcon
+      href="https://amiagudatami.github.io/activities/cities/beer-sheva-city.pdf"
+      title="באר שבע - מידע על העיר"
+      subtitle=""
+      externalLink={true}
+      className="border-b-haki-400"
+      icon="icons/sport.ico"
+      />
+
+      <DynamicIcon
+      href="https://amiagudatami.github.io/activities/cities/beer-sheva-pictures.pdf"
+      title="באר שבע - תמונות"
+      subtitle=""
+      externalLink={false}
+      className="border-b-green-400"
+      icon="icons/stories.ico"
+      />
+
+      <DynamicIcon
+      href="https://amiagudatami.github.io/activities/cities/jerusalem-city.pdf"
+      title="ירושלים - מידע על העיר"
+      subtitle=""
+      externalLink={false}
+      className="border-b-pink-400"
+      icon="icons/recipes.ico"
+      />
+
+      <DynamicIcon
+      href="https://amiagudatami.github.io/activities/cities/jerusalem-pictures.pdf"
+      title="ירושלים - מידע על העיר"
+      subtitle=""
+      externalLink={true}
+      className="border-b-lightBlue-400"
+      icon="icons/eyes.ico"
+      />
+
+      <DynamicIcon
+      href="https://amiagudatami.github.io/activities/cities/jerusalem-pictures.pdf"
+      title="ירושלים - תמונות"
+      subtitle=""
+      externalLink={true}
+      className="border-b-lightBlue-400"
+      icon="icons/eyes.ico"
+      />
+
+      <DynamicIcon
+      href="https://amiagudatami.github.io/activities/cities/tel-aviv-city.pdf"
+      title="תל אביב - מידע על העיר"
+      subtitle=""
+      externalLink={true}
+      className="border-b-lightBlue-400"
+      icon="icons/eyes.ico"
+      />
+
+  <DynamicIcon
+      href="https://amiagudatami.github.io/activities/cities/tel-aviv-pictures.pdf"
+      title="תל אביב - תמונות"
+      subtitle=""
+      externalLink={true}
+      className="border-b-lightBlue-400"
+      icon="icons/eyes.ico"
+      />
+
+    </div>
+  </main>
+</Layout>
