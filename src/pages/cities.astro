@@ -1,5 +1,5 @@
 ---
-import Layout from "../layouts/Layout.astro";
+import Layout from '../layouts/Layout.astro';
 // import Card from "../components/Card.astro";
 // import Location from "../components/Location.astro";
 // import Recipe from "../components/Recipe.astro";
@@ -7,102 +7,101 @@ import Layout from "../layouts/Layout.astro";
 // import Book from "../components/Book.astro";
 // import Sport from "../components/Sport.astro";
 // import Health from "../components/Health.astro";
-import DynamicIcon from "../components/DynamicIcon.astro";
+import DynamicIcon from '../components/DynamicIcon.astro';
 
-import List from "../layouts/List.astro";
-import Button from "../components/Button.astro";
-import Arrow from "../components/Arrow.astro";
+import List from '../layouts/List.astro';
+import Button from '../components/Button.astro';
+import Arrow from '../components/Arrow.astro';
 ---
 
-<Layout title="פעילויות בחירום">
+<Layout title='פעילויות בחירום'>
   <main>
-<div class="mb-4">פעילויות ערים.</div>
-    <div class="mb-4">הקליקו על קטגוריה כדי לצפות בפעילויות:</div>
+    <div class='mb-4'>פעילויות ערים.</div>
+    <div class='mb-4'>הקליקו על קטגוריה כדי לצפות בפעילויות:</div>
     <div
-      role="list"
-      class="flex justify-center flex-wrap md:w-[700px] w-full mx-auto">
-
+      role='list'
+      class='flex justify-center flex-wrap md:w-[700px] w-full mx-auto'
+    >
       <DynamicIcon
-      href="https://amiagudatami.github.io/activities/cities/eilat-city.pdf"
-      title="אילת - מידע על העיר"
-      subtitle=""
-      externalLink={true}
-      className="border-b-purple-400"
-      icon="icons/health.ico"
-      />
-
-      <DynamicIcon
-      href="https://amiagudatami.github.io/activities/cities/eilat-pictures.pdf"
-      title="אילת - תמונות"
-      subtitle=""
-      externalLink={false}
-      className="border-b-orange-400"
-      icon="icons/cities.ico"
+        href='https://amiagudatami.github.io/activities/cities/eilat-city.pdf'
+        title='אילת - מידע על העיר'
+        subtitle=''
+        externalLink={true}
+        className='border-b-purple-400'
+        icon='../images/eilat.webp'
       />
 
       <DynamicIcon
-      href="https://amiagudatami.github.io/activities/cities/beer-sheva-city.pdf"
-      title="באר שבע - מידע על העיר"
-      subtitle=""
-      externalLink={true}
-      className="border-b-haki-400"
-      icon="icons/sport.ico"
+        href='https://amiagudatami.github.io/activities/cities/eilat-pictures.pdf'
+        title='אילת - תמונות'
+        subtitle=''
+        externalLink={false}
+        className='border-b-orange-400'
+        icon='../images/eilat.webp'
       />
 
       <DynamicIcon
-      href="https://amiagudatami.github.io/activities/cities/beer-sheva-pictures.pdf"
-      title="באר שבע - תמונות"
-      subtitle=""
-      externalLink={false}
-      className="border-b-green-400"
-      icon="icons/stories.ico"
+        href='https://amiagudatami.github.io/activities/cities/beer-sheva-city.pdf'
+        title='באר שבע - מידע על העיר'
+        subtitle=''
+        externalLink={true}
+        className='border-b-haki-400'
+        icon='../images/beersheba.jpg'
       />
 
       <DynamicIcon
-      href="https://amiagudatami.github.io/activities/cities/jerusalem-city.pdf"
-      title="ירושלים - מידע על העיר"
-      subtitle=""
-      externalLink={false}
-      className="border-b-pink-400"
-      icon="icons/recipes.ico"
+        href='https://amiagudatami.github.io/activities/cities/beer-sheva-pictures.pdf'
+        title='באר שבע - תמונות'
+        subtitle=''
+        externalLink={false}
+        className='border-b-green-400'
+        icon='../images/beersheba.jpg'
       />
 
       <DynamicIcon
-      href="https://amiagudatami.github.io/activities/cities/jerusalem-pictures.pdf"
-      title="ירושלים - מידע על העיר"
-      subtitle=""
-      externalLink={true}
-      className="border-b-lightBlue-400"
-      icon="icons/eyes.ico"
+        href='https://amiagudatami.github.io/activities/cities/jerusalem-city.pdf'
+        title='ירושלים - מידע על העיר'
+        subtitle=''
+        externalLink={false}
+        className='border-b-pink-400'
+        icon='../images/jerusalem.webp'
       />
 
       <DynamicIcon
-      href="https://amiagudatami.github.io/activities/cities/jerusalem-pictures.pdf"
-      title="ירושלים - תמונות"
-      subtitle=""
-      externalLink={true}
-      className="border-b-lightBlue-400"
-      icon="icons/eyes.ico"
+        href='https://amiagudatami.github.io/activities/cities/jerusalem-pictures.pdf'
+        title='ירושלים - מידע על העיר'
+        subtitle=''
+        externalLink={true}
+        className='border-b-lightBlue-400'
+        icon='../images/jerusalem.webp'
       />
 
       <DynamicIcon
-      href="https://amiagudatami.github.io/activities/cities/tel-aviv-city.pdf"
-      title="תל אביב - מידע על העיר"
-      subtitle=""
-      externalLink={true}
-      className="border-b-lightBlue-400"
-      icon="icons/eyes.ico"
+        href='https://amiagudatami.github.io/activities/cities/jerusalem-pictures.pdf'
+        title='ירושלים - תמונות'
+        subtitle=''
+        externalLink={true}
+        className='border-b-lightBlue-400'
+        icon='../images/jerusalem.webp'
       />
 
-  <DynamicIcon
-      href="https://amiagudatami.github.io/activities/cities/tel-aviv-pictures.pdf"
-      title="תל אביב - תמונות"
-      subtitle=""
-      externalLink={true}
-      className="border-b-lightBlue-400"
-      icon="icons/eyes.ico"
+      <DynamicIcon
+        href='https://amiagudatami.github.io/activities/cities/tel-aviv-city.pdf'
+        title='תל אביב - מידע על העיר'
+        subtitle=''
+        externalLink={true}
+        className='border-b-lightBlue-400'
+        icon='../images/telaviv.jpg'
       />
 
+      <DynamicIcon
+        href='https://amiagudatami.github.io/activities/cities/tel-aviv-pictures.pdf'
+        title='תל אביב - תמונות'
+        subtitle=''
+        externalLink={true}
+        className='border-b-lightBlue-400'
+        icon='../images/telaviv.jpg'
+      />
     </div>
   </main>
 </Layout>
